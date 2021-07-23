@@ -33,6 +33,10 @@
     margin-bottom: 0.5rem;
 }
 
+.friend-info:hover{
+    background-color: #eee;
+}
+
 .friend-name-container p:first-child {
     margin: 0px;
     margin-bottom: 6px;

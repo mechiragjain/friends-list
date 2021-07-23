@@ -36,3 +36,7 @@
     border: none;
     cursor: pointer;
 }
+
+.add-button:hover{
+    background-color: #367fd3;
+}

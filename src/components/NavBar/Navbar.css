@@ -2,7 +2,7 @@
 
 .main-container{
     min-height: 100vh;
-    background-color: #F9F9F9;
+    background-color: #F9F9F9 !important;
     max-width: 100%;
     overflow-x: hidden;
 }

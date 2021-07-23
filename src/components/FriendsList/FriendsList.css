@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.addButton:hover{
+    background-color: #367fd3;
+}
+
 .sortContainer {
     text-align: right;
 }
@@ -39,7 +43,7 @@
     border: 1px solid rgba(34,36,38,.15);
     box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
     border-radius: .28rem;
-    background-color: #EEEEEE;
+    background-color: #F9F9F9;
 }
 
 .segment-list-container{
