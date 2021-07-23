@@ -10,7 +10,7 @@ function Navbar({children}){
                 <img src={HaptikLogo} alt='Haptik Logo' />
                 <h1>Friends List</h1>
             </div>
-            <div>
+            <div className="main-container-body">
                 {children}
             </div>
         </div>
