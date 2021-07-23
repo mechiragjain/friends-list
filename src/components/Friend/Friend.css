@@ -1,0 +1,53 @@
+.delete-icon {
+    cursor: pointer;
+    max-height: 22px;
+    margin-left: 22px;
+}
+
+.favourite {
+    max-height: 22px;
+    cursor: pointer;
+}
+
+.friends-left-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.friends-left-container img{
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+}
+
+.friend-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 1rem;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.friend-name-container p:first-child {
+    margin: 0px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.friend-name-container p{
+    margin: 0px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.friend-image{
+    max-height: 22px;
+}

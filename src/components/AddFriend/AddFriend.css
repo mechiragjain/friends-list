@@ -1,0 +1,38 @@
+.input-container{
+    background-color: white;
+    height: 3rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    border: 1px solid rgba(0,0,0,.1) !important;
+    border-radius: 5px;
+}
+
+.text-field{
+    padding: 0rem 1rem;
+    border: none;
+    width: 80%;
+    background-color: transparent;
+    color: #666666 !important;
+    outline: none !important;
+}
+
+.search-icon {
+    max-height: 15px;
+    margin-right: 5px;
+}
+
+.add-button{
+    color: white;
+    height: 80%;
+    background-color: #0067dd;
+    width: 25%;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}

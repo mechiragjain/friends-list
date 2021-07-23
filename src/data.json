@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "name": "Chirag",
+    "favorite": false
+  }, {
+    "id": 2,
+    "name": "Ujjwal",
+    "favorite": true
+  }, {
+    "id": 3,
+    "name": "Harsh",
+    "favorite": false
+  }, {
+    "id": 4,
+    "name": "Gaurav",
+    "favorite": false
+  }, {
+    "id": 5,
+    "name": "Divyansh",
+    "favorite": false
+  }, {
+    "id": 6,
+    "name": "Harshit",
+    "favorite": false
+  }, {
+    "id": 7,
+    "name": "Ayush",
+    "favorite": false
+  }, {
+    "id": 8,
+    "name": "Shubham",
+    "favorite": false
+  }]
