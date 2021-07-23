@@ -1,7 +1,14 @@
 # Friends List
+<br>
 
 <img src="./src/Images/Screenshot.png" alt="Screenshot of Friends App">
 
+<br>
+<br>
+
+## Link - https://friendslist-react.netlify.app/
+
+<br>
 
 ## 🔑 Key Features
 
@@ -12,6 +19,7 @@
 - Delete friends from the list. A confirmation box will also pop-up.
 - Supports Pagination when there are more than 4 enteries.
 
+<br>
 
 ## ⭐ How to get started on local system?
 1. Drop a ⭐ on the Github Repository.
