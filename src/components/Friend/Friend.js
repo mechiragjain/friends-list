@@ -1,6 +1,11 @@
 import React, {useState} from 'react';
 import ConfirmationBox from './../ConfirmationBox/ConfirmationBox';
 
+import FriendShip from './../../Images/friendship.png';
+import Star from './../../Images/Star.png';
+import Favourite from './../../Images/Favourite.png';
+import DeleteIcon from './../../Images/Delete.png'
+
 import './Friend.css';
 
 function Friend({item, addToFavourite, handleDelete}){
@@ -11,7 +16,7 @@ function Friend({item, addToFavourite, handleDelete}){
     const favouriteIcon = () => {
         return (
             <img 
-                src='https://image.flaticon.com/icons/png/512/5158/5158766.png'
+                src={Favourite}
                 className='favourite' 
                 alt=''
                 onClick={() => addToFavourite(item.id)}
@@ -23,7 +28,7 @@ function Friend({item, addToFavourite, handleDelete}){
     const notFavouriteIcon = () => {
         return (
             <img
-                src='https://image.flaticon.com/icons/png/512/1828/1828970.png'
+                src={Star}
                 className='favourite'
                 alt=''
                 onClick={() => addToFavourite(item.id)}
@@ -35,7 +40,7 @@ function Friend({item, addToFavourite, handleDelete}){
         <div>
             <div className='friend-info'>
                 <div className="friends-left-container">
-                    <img className="friend-image" src='https://img-premium.flaticon.com/png/512/3220/premium/3220829.png?token=exp=1627032948~hmac=1a558231c0354e7a046b1202884e5cbe' alt='Friends Icon' />
+                    <img className="friend-image" src={FriendShip} alt='Friends Icon' />
                     <div className='friend-name-container'>
                         <p className="name">{item.name}</p>
                         <p>is your friend</p>
@@ -47,7 +52,7 @@ function Friend({item, addToFavourite, handleDelete}){
                     <img
                         className='delete-icon'
                         alt='Delete Icon'
-                        src='https://image.flaticon.com/icons/png/512/3221/3221897.png' 
+                        src={DeleteIcon} 
                         onClick={() => setConfirmationBox(true)}
                     />
                 </div>
